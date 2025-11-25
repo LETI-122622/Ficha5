@@ -1,5 +1,6 @@
-package iscteiul.insta.demo1;
+package iscteiul.insta.demo1.ex1b.dynamic.test;
 
+import iscteiul.insta.demo1.ex1b.dynamic.page.DynamicContentPage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

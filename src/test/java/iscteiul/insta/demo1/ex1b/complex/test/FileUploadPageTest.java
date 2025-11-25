@@ -1,5 +1,6 @@
-package iscteiul.insta.demo1;
+package iscteiul.insta.demo1.ex1b.complex.test;
 
+import iscteiul.insta.demo1.ex1b.complex.page.FileUploadPage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,9 +11,9 @@ import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class FileUploadTest {
+public class FileUploadPageTest {
     private WebDriver driver;
-    private FileUpload fileUpload;
+    private FileUploadPage fileUploadPage;
 
     @BeforeEach
     public void setUp() {
@@ -21,7 +22,7 @@ public class FileUploadTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://the-internet.herokuapp.com/upload");
 
-        fileUpload = new FileUpload(driver);
+        fileUploadPage = new FileUploadPage(driver);
     }
 
     @AfterEach
@@ -31,7 +32,7 @@ public class FileUploadTest {
 
     @Test
     public void submitFileError() {
-        fileUpload.submitButton.click();
+        fileUploadPage.submitButton.click();
         assertTrue(driver.getPageSource().contains("Internal Server Error"));
     }
 

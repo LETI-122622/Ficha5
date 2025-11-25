@@ -1,11 +1,11 @@
-package iscteiul.insta.demo1;
+package iscteiul.insta.demo1.ex1b.complex.page;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class FileUpload {
+public class FileUploadPage {
 
     @FindBy(id="upload")
     public WebElement fileUpload;
@@ -16,7 +16,7 @@ public class FileUpload {
     @FindBy(xpath = "//*[@id='file-submit']")
     public WebElement submitButton;
 
-    public FileUpload(WebDriver driver) {
+    public FileUploadPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 }

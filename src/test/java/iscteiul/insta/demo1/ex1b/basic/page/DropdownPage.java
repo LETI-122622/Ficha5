@@ -1,4 +1,4 @@
-package iscteiul.insta.demo1;
+package iscteiul.insta.demo1.ex1b.basic.page;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
