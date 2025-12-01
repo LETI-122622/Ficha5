@@ -38,7 +38,7 @@ public class MainPageTest {
     public void search() throws InterruptedException {
         mainPage.searchButton.click();
 
-        //Thread.sleep(15000);
+        Thread.sleep(15000000);
 
         WebElement searchField = driver.findElement(By.cssSelector("input[data-test-id='search-input']"));
         searchField.sendKeys("Selenium");
@@ -54,7 +54,7 @@ public class MainPageTest {
     public void toolsMenu() throws InterruptedException {
         mainPage.toolsMenu.click();
 
-        //Thread.sleep(3000);
+        Thread.sleep(3000);
 
         WebElement menuPopup = driver.findElement(By.cssSelector("div[data-test='main-submenu-suggestions']"));
         assertTrue(menuPopup.isDisplayed());

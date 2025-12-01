@@ -43,11 +43,17 @@ public class AddProductTest {
         // 1. abrir página (login aparece primeiro)
         LoginPage loginPage = open("/Inventory/", LoginPage.class);
 
+        //Thread.sleep(500000);
+
         // 2. login
         InventoryPage inventoryPage = loginPage.loginAs("admin", "admin");
 
+        //Thread.sleep(500000);
+
         // 3. clicar em New product
         NewProductPage newProductPage = inventoryPage.clickNewProduct();
+
+        //Thread.sleep(500000);
 
         /// 4. preencher formulário e guardar
         newProductPage.setProductName(productName);
