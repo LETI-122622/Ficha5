@@ -1,4 +1,4 @@
-package com.vaadin.database.movie.pages;
+package iscteiul.insta.demo1.ex2.selenide.database.pages;
 import com.codeborne.selenide.*;
 
 import static com.codeborne.selenide.Selenide.*;
