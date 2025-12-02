@@ -1,8 +1,8 @@
-package iscteiul.insta.demo1.ex2.selenide.database.tests;
+package iscteiul.insta.demo1.ex2.selenide.database.test;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import iscteiul.insta.demo1.ex2.selenide.database.pages.VaadinDataBaseExampleDemoPage;
+import iscteiul.insta.demo1.ex2.selenide.database.page.VaadinDataBaseExampleDemoPage;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

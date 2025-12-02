@@ -1,4 +1,4 @@
-package iscteiul.insta.demo1.ex2.selenide.database.pages;
+package iscteiul.insta.demo1.ex2.selenide.database.page;
 import com.codeborne.selenide.*;
 
 import static com.codeborne.selenide.Selenide.*;
