@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9810","testAccessButtonComponent()","","2025-12-05","passed","2025-12-05","","iscteiul.insta.demo1.ex2.selenide.Sampler.test.SamplerInteractionTest","iscteiul.insta.demo1.ex2.selenide.Sampler.test.SamplerInteractionTest","testAccessButtonComponent"
