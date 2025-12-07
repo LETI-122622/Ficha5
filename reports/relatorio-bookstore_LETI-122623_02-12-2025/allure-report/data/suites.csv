@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Login como admin, adicionar um novo produto e verificar que aparece na lista.","20792","shouldAddNewProductToInventory()","","2025-12-07","passed","2025-12-07","","iscteiul.insta.demo1.ex2.selenide.bookstore.test.AddProductTest","iscteiul.insta.demo1.ex2.selenide.bookstore.test.AddProductTest","shouldAddNewProductToInventory"
